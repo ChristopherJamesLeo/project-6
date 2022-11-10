@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <script src="https://kit.fontawesome.com/2ea2780247.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./project_img/logo-dtour.jpg" type="image/x-icon">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./project_css/style.css">
+    <link rel="stylesheet" href="./project_css/@media_style.css">
+</head>
+<body>
+    <div class="close-cover">
+    </div>
+    <nav class="navBar">
+        <div id="nav_bar_buttom" class="nav_bar_buttom">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <script>
+            $(document).ready (e=()=>{
+                $("#nav_bar_buttom").click (e=()=>{
+                    $("#nav_bar_slide_div").slideToggle("slow")
+                })
+            })
+        </script>
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./project_img/logo-dtour.jpg" class="logo_jmg" alt="logo-dtour">
+            </a>
+        </div>
+        <menu class="menu_tag">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">TOUR PACKAGE</a>
+                </li>
+                <li class="nav-item distList">
+                    <a class="nav-link active " aria-current="page" href="./project_html/distination.html">DISTIONATIONS</a>
+                    <div class="dist_lis_div">
+                        <ul class="dist_ul">
+                            <a href="#">
+                                <li>
+                                    Kamado Island
+                                </li>
+                            </a>  
+                            <a href="#">
+                                <li>
+                                    Padar Island
+                                </li>
+                            </a> 
+                            <a href="#">
+                                <li>
+                                    Taka Makasar
+                                </li>
+                            </a> 
+                            <a href="#">
+                                <li>
+                                    Manta Point
+                                </li>
+                            </a> 
+                            <a href="#">
+                                <li>
+                                    Pink Beach
+                                </li>
+                            </a> 
+                            <a href="#">
+                                <li>
+                                    Kanawa Island
+                                </li>
+                            </a> 
+                            <a href="#">
+                                <li>
+                                    Kelor Island
+                                </li>
+                            </a> 
+                            <a href="#">
+                                <li>
+                                    Kalong Island
+                                </li>
+                            </a>   
+                            <a href="#">
+                                <li>
+                                    Rinca Isalnd
+                                </li>
+                            </a> 
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./project_html/contact_us.html">CONTACTS US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><span><i class="fa-solid fa-cart-shopping-fast"></i></span><span>0</span> ITEMS - RP 0.00</a>
+                </li>
+            </ul>
+        </menu>
+        <div class="search">
+            <span id="search"><i class="fa-solid fa-magnifying-glass"></i></span>
+        </div>
+        <div class="selectLanguage">
+            <button>Select Language <span><i class="fa-solid fa-angles-right"></i></span></button>
+        </div>
+        <div class="fb_imst">
+            <a href="#"><button><span><i class="fa-brands fa-facebook-f"></i></span></button></a>
+            <a href="#"><button><span><i class="fa-brands fa-instagram"></i></span></button></a>
+        </div>
+        <div class="viber">
+            <a href="viber://chat?number=09440123484"><span><i class="fa-brands fa-viber"></i></span>How Can I Help You</a>
+        </div>
+        <div id="modelDiv" class="modelDiv">
+            <div class="modelCl">
+                <span id="modelCl"><i class="fa-solid fa-xmark"></i></span>
+            </div>
+            <div class="modelBody">
+                <div class="searchInputBtn">
+                    <input type="text" name="searchInput" id="searchInput" class="searchInput" placeholder="Type your search here"><button>Search</button>
+                </div>
+            </div>
+        </div>
+        <div id="nav_bar_slide_div" class="nav_bar_slide_div">
+            <ul class="nav justify-content-center nav_bar_slide">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">TOUR PACKAGE</a>
+                </li>
+                <li class="nav-item distList">
+                    <a id="DISTIONATIONS" class="nav-link active" aria-current="page" href="./project_html/distination.html">DISTIONATIONS</a>
+                    <script>
+                        $(document).ready (e=()=>{
+                            $("#DISTIONATIONS").click(e=()=>{
+                                $("#dist_slide_ul").slideToggle("slow")
+                            })
+                        })
+                    </script>
+                    <div id="dist_slide_ul" class="dist_slide_ul">
+                        <ul class="dist_ul dist_slide">
+                            <a href="#">
+                                <li>
+                                    Kamado Island
+                                </li>
+                            </a>  
+                            <a href="#">
+                                <li>
+                                    Padar Island
+                                </li>
+                            </a> 
+                            <a href="#">
+                                <li>
+                                    Taka Makasar
+                                </li>
+                            </a> 
+                            <a href="#">
+                                <li>
+                                    Manta Point
+                                </li>
+                            </a> 
+                            <a href="#">
+                                <li>
+                                    Pink Beach
+                                </li>
+                            </a> 
+                            <a href="#">
+                                <li>
+                                    Kanawa Island
+                                </li>
+                            </a> 
+                            <a href="#">
+                                <li>
+                                    Kelor Island
+                                </li>
+                            </a> 
+                            <a href="#">
+                                <li>
+                                    Kalong Island
+                                </li>
+                            </a>   
+                            <a href="#">
+                                <li>
+                                    Rinca Isalnd
+                                </li>
+                            </a> 
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./project_html/contact_us.html">CONTACTS US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><span><i class="fa-solid fa-cart-shopping-fast"></i></span><span>0</span> ITEMS - RP 0.00</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="carosel_div">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="back_ground_img_div">
+                        <div class="carsoul_intro_lat">
+                            <h1>WELCOME TO D'TOUR KOMODO</h1>
+                            <div></div>
+                            <p>The Magnificiant Journey and Experience of the best island tour starts here</p> 
+                            <a href="./project_html/explore_more.html"><button id="exploreMore">EXPLORE MORE</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="back_ground_img_div-1">
+                        <div class="carsoul_intro_lat">
+                            <h1>WELCOME TO D'TOUR KOMODO</h1>
+                            <div></div>
+                            <p>The Magnificiant Journey and Experience of the best island tour starts here</p> 
+                            <a href="./project_html/explore_more.html"><button id="exploreMore">EXPLORE MORE</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="back_ground_img_div-2">
+                        <div class="carsoul_intro_lat">
+                            <h1>WELCOME TO D'TOUR KOMODO</h1>
+                            <div></div>
+                            <p>The Magnificiant Journey and Experience of the best island tour starts here</p> 
+                            <a href="./project_html/explore_more.html"><button id="exploreMore">EXPLORE MORE</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="back_ground_img_div-3">
+                        <div class="carsoul_intro_lat">
+                            <h1>WELCOME TO D'TOUR KOMODO</h1>
+                            <div></div>
+                            <p>The Magnificiant Journey and Experience of the best island tour starts here</p> 
+                            <a href="./project_html/explore_more.html"><button id="exploreMore">EXPLORE MORE</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="back_ground_img_div-4">
+                        <div class="carsoul_intro_lat">
+                            <h1>WELCOME TO D'TOUR KOMODO</h1>
+                            <div></div>
+                            <p>The Magnificiant Journey and Experience of the best island tour starts here</p> 
+                            <a href="./project_html/explore_more.html"><button id="exploreMore">EXPLORE MORE</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <section class="sect_1">
+        <div class="sec_1_head_container">
+            <h1>ADVENTURE AND CRUISE PACKAGES</h1>
+            <div></div>
+            <p>Experience a different adventure unlike any.
+                You can trek the islands of Komodo dragons, explore the magical mysterious caves, watching sunset or stargazing, or even swim with the Manta Rays. Below are our best known packages.</p>
+        </div>
+        <div class="sec_1_list_container">
+            <div class="sec_1_list">
+                <div class="sec_1_img_div">
+                    <div class="sec_1_img_head_div">
+                        <span>Full Day Trip</span>
+                    </div>
+                    <div class="img_con">
+                        <img src="./project_img/komodo-tour1.jpg" class="sec_1_img" alt="komodo-tour1">
+                    </div>
+                </div>
+                <div class="trip_title_div">
+                    <h3>Full Day Trip / RP 1350000</h3>
+                </div>
+                <div class="trip_detail">
+                    <p>Full life experience of Komodo, Manta Ray, Padar Island Hiking, Long Beach Swimming, Kanawa…</p>
+                </div><hr>
+                <div class="traip_locate">
+                    <span><i class="fa-solid fa-timer"></i>Day Tour</span>
+                </div>
+            </div>
+            <div class="sec_1_list">
+                <div class="sec_1_img_div">
+                    <div class="sec_1_img_head_div">
+                        <span>SunsetTrip</span>
+                    </div>
+                    <div class="img_con">
+                        <img src="./project_img/komodo-sunset.jpg" class="sec_1_img" alt="komodo-tour1">
+                    </div>
+                </div>
+                <div class="trip_title_div">
+                    <h3>Sunset Trip RP1100000</h3>
+                </div>
+                <div class="trip_detail">
+                    <p>All about exciting experiences where we do snorkelling, swimming, bat viewing under ... •…</p>
+                </div><hr>
+                <div class="traip_locate">
+                    <span><i class="fa-solid fa-timer"></i>Sunset Trip</span>
+                </div>
+            </div>
+            <div class="sec_1_list">
+                <div class="sec_1_img_div">
+                    <div class="sec_1_img_head_div">
+                        <span>Bus Trip</span>
+                    </div>
+                    <div class="img_con">
+                        <img src="./project_img/komodo-boat.jpg" class="sec_1_img" alt="komodo-tour1">
+                    </div>
+                </div>
+                <div class="trip_title_div">
+                    <h3>Bus Trip</h3>
+                </div>
+                <div class="trip_detail">
+                    <p>Coming Soon</p>
+                </div><hr>
+                <div class="traip_locate">
+                    <span><i class="fa-solid fa-timer"></i>Bus Trip</span>
+                </div>
+            </div>
+        </div>
+        <div class="view_a_pac">
+            <a href="#" target="_blank">
+                <button id="view_al_pac_btn" class="view_al_pac_btn">View All Package</button>
+            </a>   
+        </div>
+    </section>
+    <section class="sec_2">
+        <div class="sec_2_div">
+            <div class="sec_2_pic">
+                <img src="./project_img/banner-promo2-new-label.gif" class="lagel_gif" alt="promo2">
+                <!-- <img src="../project_img/banner-promo2-new-label2.png" class="lagel_png" alt="label2"> -->
+            </div>
+            <div class="sec_2_later">
+                <p>Current <b style="font-weight: 700;">Promotion of Voucher</b> to be purchased for <b style="font-weight: 700;">D'Tour Komodo</b> in  combination of <b style="font-weight: 700;">Loccal Collection Hotel</b> where credits can be used one category or conbined as started in the voucher. <b style="font-weight: 700;">Get it while it last.</b> </p>
+            </div> 
+            <div class="sec_2_btn_div">
+                <button class="sec_2_btn">PROMOTION FOR VOUCHER</button>
+                <button class="sec_2_btn">PROGRESSION OF LOCCAL COLLECTION HOTEL</button>
+            </div>
+        </div>
+    </section>
+    <section class="sec_3">
+        <div class="sec_3_title">
+            <h1 style="line-height: 50px;">OUR GALLARY</h1>
+            <div></div>
+        </div>
+        <div class="sec_3_vd">
+            <div class="sec_3_vd_left">
+                <p><b style="font-weight: 600;">D’Tour Komodo Travel</b> one of the <b style="font-weight: 600;">MOST TRUSTED</b>Name you can rely on, in fulfilling the desires of wildlife adventures and expeditions. We are the Tour Specialist of this Exotic East Indonesia’s nature wonder that is still not visited by many domestic and foreign travelers. Labuan Bajo is the IN place to visit and <b style="font-weight: 600;"> D’Tour Komodo Travel</b>will be your Best Tour Package.</p>
+            </div>
+            <div class="sec_3_vd_right">
+                <iframe width="647" height="364" src="https://www.youtube.com/embed/bDrCdUd99UQ" title="DTour Komodo Travel | Your trusted travel companion to Komodo Island & Labuan Bajo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="sec_3_fooder_div">
+            <div class="sec_fooder_latter_div">
+                <p>This is the place where the enchanting culture mesmerises your soul with it’s breathtaking experience, to the unparalleled natural beauty of the <b style="font-weight: 600;">UNESCO World Heritage Site</b>  and a <b style="font-weight: 600;">National Geographic</b>  top <b style="font-weight: 600;">10 destination</b> in the world. </p>
+            </div>
+        </div>
+    </section>
+    <div class="brakeLine"></div>
+    <footer class="footer">
+        <div class="footer_left">
+            <div class="fot_left_img_div">
+                <img src="./project_img/logo-dtour.jpg" class="fot_left_img" alt="dtour">
+            </div>
+            <div class="fot_lef_intro">
+                <h4>Dtour Komodo:</h4>
+                <p>
+                    Jl. Soekarno Hatta, Labuan Bajo, Komodo, Kabupaten Manggarai Barat, Nusa Tenggara Tim., Indonesia
+                </p>
+            </div><br>
+            <div class="fot_map_loca">
+                <a href="#">
+                    <img src="./project_img/icon-location.png" alt="location">
+                    <span>Location</span>
+                </a>
+            </div><br>
+            <div class="fot_phNO_div">
+                <label for="ph-no">Call Us/ Viber Us:</label><br>
+                <a href="viber://chat?number=09440123484">09440123484</a>
+            </div><br>
+            <div class="fot_mail_div">
+                <label for="mail">Email:</label><br>
+                <a href="mailto:aungaung@gamil.com" id="mail">aungaung@gmail.com</a>
+            </div>
+        </div>
+        <div class="footer_middle">
+            <h2>ISLANDS</h2>
+            <div class="foot_island_list">
+                <div class="foot_island_left">
+                    <a href="#"><span>Komodo Island</span></a>
+                    <br>
+                    <a href="#"><span>Kanawa Island</span></a>
+                    <br>
+                    <a href="#"><span>Kelor Island</span></a>
+                    <br>
+                    <a href="#"><span>Taka Makasar</span></a>
+                    <br>
+                    <a href="#"><span>Menjerite Island</span></a>
+                    
+                </div>
+                <div class="foot_island_right">
+                    <a href="#"><span>Padar Island</span></a>
+                    <br>
+                    <a href="#"><span>Pink Beach</span></a>
+                    <br>
+                    <a href="#"><span>Manta Point</span></a>
+                    <br>
+                    <a href="#"><span>Kalong Island</span></a>
+                    <br>
+                    <a href="#"><span>Rinca Island</span></a>
+                </div>
+            </div>
+            <h2>FIND OUT MORE</h2>
+            <div class="footer_middle_img_div">
+                <img src="./project_img/trip-advisor.png" class="footer_middle_img" alt="advisor">
+            </div>
+        </div>
+        <div class="footer_right">
+            <h2>JOIN OUR MAILING LIST</h2>
+            <p>Be the first to know about Our latest promotion packages & events!</p>
+            <input type="email" name="fot_rig_email" id="fot_rig_email" class="fot_rig_email" placeholder="Your Email..."><br>
+            <button type="submit">SUBSCRIBE</button>
+        </div>
+    </footer>
+    <script src="./project_js/script_home.js"></script>
+</body>
+</html>

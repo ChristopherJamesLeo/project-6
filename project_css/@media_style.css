@@ -1,0 +1,35 @@
+@media(max-width : 1000px){
+    body {
+        background-color: antiquewhite;
+    }
+    .nav_bar_buttom{
+        display: block;
+    }
+    .menu_tag{
+        display: none;
+    }
+}
+
+@media(max-width : 800px){
+    body {
+        background-color: rgb(172, 159, 142);
+    }
+}
+
+@media(max-width : 600px){
+    body {
+        background-color: rgb(155, 114, 61);
+    }
+}
+
+@media(max-width : 400px){
+    body {
+        background-color: rgb(105, 87, 64);
+    }
+}
+
+@media(max-width : 300px){
+    body {
+        background-color: rgb(85, 74, 59);
+    }
+}
